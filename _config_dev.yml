@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Mindful Bit
-email: erik@themindfulbit.com
+title: Difficulties
+email: erik@hess.fm
 description: > # this means to ignore newlines until "baseurl:"
   Looking for the intersection of mindfulness, technology, and design. Seeing the world of tech through its impermanent, emergent, and inherently unsatisfying nature. There may not be any good answers, but it’s possible to have enlightening conversations around the questions the world throws at us.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -15,7 +15,7 @@ url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: themindfulbit
 github_username:  themindfulbit
 permalink: /blog/:title
-gems: [jekyll-paginate, jekyll-gist, rouge, jekyll-redirect-from, jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-gist, rouge, jekyll-redirect-from, jekyll-sitemap]
 include: ["_pages"]
 
 # Build settings

@@ -9,6 +9,26 @@
 @import "_print";
 @import "tomorrow-night";
 
+@font-face {
+  font-family: 'Garamond';
+  src: url('../assets/fonts/EBGaramond12-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./assets/fonts/EBGaramond12-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Garamond';
+  src: url('../assets/fonts/EBGaramond12-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./assets/fonts/EBGaramond12-Italic.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../assets/fonts/inconsolata.woff') format('woff');
+  font-style: normal;
+}
+
 // Base font-size in pixels.
 $font-size: 16;
 
@@ -46,8 +66,7 @@ h1,
 h2 {
   @include column(12,12);
   padding: 0;
-	font-family: futura-pt, sans-serif;
-	text-transform: uppercase;
+	font-family: Garamond, serif;
 	margin-top: 0.3em;
 	margin-bottom: 0.5em;
 	font-weight: 500;
@@ -60,7 +79,7 @@ h5,
 h6 {
   @include column(12,12);
   padding: 0;
-  font-family: adobe-caslon-pro, serif;
+  font-family: Garamond, serif;
   text-transform: capitalize;
   font-style: italic;
   margin-top: 0.3em;
@@ -185,9 +204,8 @@ table {
   }
 
   th {
-    font-family: futura-pt, sans-serif;
+    font-family: Garamond, serif;
     font-weight: normal;
-    text-transform: uppercase;
     color: $dark-gray;
     padding: 0.2em 0.5em;
     text-align: left;
@@ -462,8 +480,7 @@ hr:after {
 
 .logo {
   font-weight: normal;
-  font-family: adobe-caslon-pro, serif;
-  text-transform: none;
+  font-family: Garamond, serif;
   letter-spacing: normal;
 
   a {
@@ -508,7 +525,7 @@ hr:after {
 
 .slashes {
   font-weight: normal;
-  font-family: adobe-caslon-pro, serif;
+  font-family: Garamond, serif;
   text-transform: none;
   position: relative;
   // top: -0.05em;
@@ -538,7 +555,7 @@ body {
   padding: 0 1em;
   background-color: $ecru;
   color: $black;
-  font-family: adobe-caslon-pro, serif;
+  font-family: Garamond, serif;
 
   #header {
   	@include column(12);
@@ -634,9 +651,8 @@ body {
           @include column(12,12);
           padding: 0;
           color: $gray;
-          font-family: futura-pt, sans-serif;
+          font-family: Garamond, serif;
           font-size: 0.9em;
-          text-transform: uppercase;
 
           a {
             color: $dark-gray;
@@ -792,9 +808,8 @@ body {
             }
 
             .name {
-              font-family: futura-pt, sans-serif;
+              font-family: Garamond, serif;
               font-size: 1.3em;
-              text-transform: uppercase;
               color: $black;
               padding-bottom: 0.3em;
 
@@ -808,8 +823,7 @@ body {
             }
 
             .price {
-              font-family: futura-pt, sans-serif;
-              text-transform: uppercase;
+              font-family: Garamond, serif;
               padding-bottom: 0.5em;
             }
           }
@@ -869,7 +883,7 @@ body {
     .page-footer {
       @include column(12,12);
       margin-bottom: 1em;
-      padding: 0.7em 0 0.5em;
+      padding: 0.7em 0 0.3em;
       border-top: 1px solid $light-gray;
       border-bottom: 1px solid $light-gray;
 
@@ -878,8 +892,8 @@ body {
         clear: both;
         padding: 0;
         margin-bottom: 0.4em;
-        font-family: futura-pt, sans-serif;
-        text-transform: uppercase;
+        font-family: Garamond, serif;
+        font-style: italic;
         color: $gray;
         font-size: 0.8em;
         line-height: 1.1em;
@@ -900,10 +914,10 @@ body {
           display: inline;
           width: auto;
           float: right;
-          font-family: futura-pt, sans-serif;
-          text-transform: uppercase;
+          font-family: Garamond, serif;
           padding-left: 0.3em;
           margin-left: 0;
+          font-variant: small-caps;
 
           a {
             color: $dark-gray;
@@ -950,8 +964,7 @@ body {
             margin-bottom: 0;
             font-weight: 500;
             font-size: 0.9em;
-            font-family: futura-pt, sans-serif;
-            text-transform: uppercase;
+            font-family: Garamond, serif;
             color: $dark-gray;
             white-space: nowrap;
             overflow: hidden;
@@ -963,8 +976,7 @@ body {
             padding: 0;
             font-size: 0.8em;
             line-height: 1.3em;
-            font-family: futura-pt, sans-serif;
-            text-transform: uppercase;
+            font-family: Garamond, serif;
             color: $gray;
             font-weight: normal;
           }
@@ -1039,13 +1051,13 @@ body {
           padding: 0 1em 0.5em;
 
           .post-title {
-            font-size: 1.1em;
+            font-size: 1.3em;
             color: $black;
             margin-bottom: 0.1em;
           }
 
           .post-meta {
-            font-size: 0.9em;
+            font-size: 0.8em;
             color: $black;
           }
         }
@@ -1080,7 +1092,7 @@ body {
         @include column(12,12);
         padding: 0.5em 1em 0.2em;
         margin: 0.5em 0 1em;
-        font-family: adobe-caslon-pro, serif;
+        font-family: Garamond, serif;
         background-color: $lighter-gray;
         color: $black;
         border: none;
@@ -1107,7 +1119,7 @@ body {
             .post-title {
               @include column(8,12);
               padding: 0;
-              font-family: adobe-caslon-pro, serif;
+              font-family: Garamond, serif;
               font-size: 1em;
               font-weight: normal;
               font-style: normal;
@@ -1132,7 +1144,7 @@ body {
             .post-date {
               @include column(4,12);
               padding: 0;
-              font-family: adobe-caslon-pro, serif;
+              font-family: Garamond, serif;
               font-size: 1em;
               font-weight: normal;
               font-style: normal;
@@ -1171,8 +1183,7 @@ body {
       background-color: $lighter-gray;
       padding: 0;
       margin: 0 0 0.2em;
-      font-family: futura-pt, sans-serif;
-      text-transform: uppercase;
+      font-family: Garamond, serif;
       border-left: 0.2em solid $gray;
 
       a {
@@ -1191,8 +1202,7 @@ body {
   #footer {
     @include column(12);
     padding: 1em 0;
-    font-family: futura-pt, sans-serif;
-    text-transform: uppercase;
+    font-family: Garamond, serif;
     overflow-x: hidden;
 
     .logo {
@@ -1239,8 +1249,7 @@ body {
       list-style-type: none;
       padding-top: 0.3em;
       margin-bottom: 0.2em;
-      font-family: futura-pt, sans-serif;
-      text-transform: uppercase;
+      font-family: Garamond, serif;
 
       .nav-item {
         margin-left: 0;
@@ -1407,8 +1416,7 @@ body {
 					@include pull(-2,8);
 					padding: 0 0 1em 1em;
 					float: right;
-          font-family: futura-pt, sans-serif;
-          text-transform: uppercase;
+          font-family: Garamond, serif;
           text-align: left;
           color: $red;
           font-size: 1.5em;
