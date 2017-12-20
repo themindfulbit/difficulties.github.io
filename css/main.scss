@@ -91,6 +91,7 @@ h6 {
 
 h1 {
   font-size: 1.5em;
+
 }
 
 h2 {
@@ -464,18 +465,21 @@ hr {
   border-top: medium double $light-gray;
   color: $light-gray;
   text-align: center;
-  margin-top: 1.2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  overflow: visible;
 }
 
 hr:after {
   content: "///";
   display: inline-block;
   position: relative;
-  top: -0.65em;
+  top: -0.6em;
   font-size: 1.2em;
-  padding: 0 0.3em;
+  padding: 0 0.5em;
   background: $ecru;
   letter-spacing: -0.1em;
+  z-index: 10;
 }
 
 .logo {
@@ -525,6 +529,7 @@ hr:after {
 
 .slashes {
   font-weight: normal;
+  font-style: normal;
   font-family: Garamond, serif;
   text-transform: none;
   position: relative;
@@ -559,9 +564,10 @@ body {
 
   #header {
   	@include column(12);
-  	padding: 1.5em 0 0.5em;
+  	padding: 2em 0 0.5em;
     text-align: center;
     overflow-x: hidden;
+    margin-bottom: 1em;
 
     .logo {
       position: relative;
@@ -578,6 +584,15 @@ body {
     padding: 0;
     overflow-x: hidden;
 
+    .page-heading,
+    .pagination-header {
+      font-variant: small-caps;
+      text-transform: lowercase;
+      letter-spacing: 0.05em;
+      margin-top: 3em;
+      margin-bottom: 1em;
+    }
+    
     .post,
     .page {
       @include column(12,12);
@@ -632,6 +647,10 @@ body {
           padding: 0 0 0.1em;
           margin: 0;
           font-weight: 500;
+          font-variant: small-caps;
+          text-transform: lowercase;
+          letter-spacing: 0.05em;
+          margin-top: 1.5em;
 
           a {
             color: $black;
@@ -653,11 +672,17 @@ body {
           color: $gray;
           font-family: Garamond, serif;
           font-size: 0.9em;
+          font-style: italic;
+          margin-bottom: 2.5em;
 
           a {
             color: $dark-gray;
           }
         }
+      }
+
+      .page-header {
+        margin-bottom: 1.5em;
       }
 
       .show-meta {
@@ -667,6 +692,11 @@ body {
 
         .player {
           padding-bottom: 0.5em;
+        }
+
+        .links a {
+          font-variant: small-caps;
+          text-transform: lowercase;
         }
       }
 
@@ -833,6 +863,8 @@ body {
         .video {
           @include column(12,12);
           padding: 0 0 0.7em;
+          margin-top: 1.5em;
+          margin-bottom: 1em;
 
           .fancybox {
 
@@ -882,6 +914,7 @@ body {
     .post-footer,
     .page-footer {
       @include column(12,12);
+      margin-top: 1.5em;
       margin-bottom: 1em;
       padding: 0.7em 0 0.3em;
       border-top: 1px solid $light-gray;
@@ -969,6 +1002,9 @@ body {
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            font-variant: small-caps;
+            text-transform: lowercase;
+            letter-spacing: 0.05em;
           }
 
           .key {
@@ -979,6 +1015,7 @@ body {
             font-family: Garamond, serif;
             color: $gray;
             font-weight: normal;
+            font-style: italic;
           }
 
           &:hover {
@@ -1022,7 +1059,7 @@ body {
         background-color: $lighter-gray;
         margin-left: 0;
         padding: 0;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
 
         a {
           color: $black;
@@ -1051,9 +1088,12 @@ body {
           padding: 0 1em 0.5em;
 
           .post-title {
-            font-size: 1.3em;
+            font-size: 1.2em;
             color: $black;
-            margin-bottom: 0.1em;
+            margin-bottom: 0;
+            text-transform: lowercase;
+            font-variant: small-caps;
+            letter-spacing: 0.05em;
           }
 
           .post-meta {
@@ -1090,7 +1130,7 @@ body {
 
       .search {
         @include column(12,12);
-        padding: 0.5em 1em 0.2em;
+        padding: 0.7em 1em 0.5em;
         margin: 0.5em 0 1em;
         font-family: Garamond, serif;
         background-color: $lighter-gray;
@@ -1124,7 +1164,7 @@ body {
               font-weight: normal;
               font-style: normal;
               position: relative;
-              top: 0.7em;
+              top: 0.5em;
               line-height: 1.5em;
               white-space: nowrap;
               overflow: hidden;
@@ -1218,6 +1258,7 @@ body {
       padding: 0;
       font-size: 0.9em;
       color: $gray;
+      font-style: italic;
 
       a {
         color: $dark-gray;
@@ -1335,8 +1376,10 @@ body {
   body #content {
     overflow-x: visible;
 
-    .post {
-      .post-banner {
+    .post,
+    .page {
+      .post-banner,
+      .page-banner {
         @include column(12,8);
         @include push(-2,8);
         padding-left: 0;

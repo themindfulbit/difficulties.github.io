@@ -29,11 +29,9 @@ I don’t have any words worthy of the last few days, much less this entire, dif
 >
 > <cite>&ndash;&nbsp;Aung San Suu Kyi</cite>
 
-***
 
 {% include image.html class="wide" file="moonrise.jpg" title="Moonrise &ndash; [ISS Expedition 13, 2006.](http://earthobservatory.nasa.gov/IOTD/view.php?id=7373)" %}
 
-***
 
 > To think in terms of either pessimism or optimism oversimplifies the truth. The problem is to see reality as it is.
 >
@@ -45,11 +43,9 @@ I don’t have any words worthy of the last few days, much less this entire, dif
 >
 > <cite>&ndash;&nbsp;John F. Kennedy</cite>
 
-***
 
 {% include image.html class="wide" file="aurora-australis.jpg" title="Aurora Australis &ndash; [STS-39, 1991.](http://earthobservatory.nasa.gov/IOTD/view.php?id=1346)" %}
 
-***
 
 > For small creatures such as we the vastness is bearable only through love.
 >
@@ -67,11 +63,9 @@ I don’t have any words worthy of the last few days, much less this entire, dif
 >
 > <cite>&ndash;&nbsp;Mohandas K. Gandhi</cite>
 
-***
 
 {% include image.html class="wide" file="pale-blue-dot.jpg" title="Earth &ndash; [Voyager 1, 1990.](https://solarsystem.nasa.gov/galleries/pale-blue-dot)" %}
 
-***
 
 > Consider again that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar", every "supreme leader", every saint and sinner in the history of our species lived there — on a mote of dust suspended in a sunbeam.
 >
