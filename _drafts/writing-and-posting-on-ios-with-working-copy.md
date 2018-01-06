@@ -1,4 +1,4 @@
-—
+---
 layout: post
 title: 'Writing and Posting iOS with Working Copy'
 author: [Erik Hess]
@@ -6,7 +6,7 @@ categories: [technology]
 tags: [writing, meta, ios]
 banner: large-lathe.jpg
 caption: "Illustrated Catalogue and General Description of Improved Machine Tools for Working Metal [Sellers, William & Co., 1899](https://flic.kr/p/oxe2XT)"
-—
+---
 
 As you may have heard, Panic is ending development on Transmit for iOS. While they’re continuing work on their excellent IDE Coda, which offers a superset of Transmit’s functionality, it’s still appropriate to mourn the loss of such a professional, focused application. 
 
