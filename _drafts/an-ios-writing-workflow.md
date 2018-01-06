@@ -4,8 +4,8 @@ title: ‘An iOS Writing Workflow’
 author: [Erik Hess]
 categories: [technology]
 tags: [writing, meta, ios]
-banner: stacked-cars.jpg
-caption: “Stacked Cars In City Junkyard, 1973. [US National Archives](https://flic.kr/p/cmMzoh)”
+banner: large-lathe.jpg
+caption: “Illustrated Catalogue and General Description of Improved Machine Tools for Working Metal [Sellers, William & Co., 1899](https://flic.kr/p/oxe2XT)”
 —
 
 As you may have heard, Panic is ending development on Transmit for iOS. While they’re continuing work on their excellent IDE Coda, which offers a superset of Transmit’s functionality, it’s still appropriate to mourn the loss of such a professional, focused application. 
@@ -18,4 +18,4 @@ If you use Git to manage your site repository, then Working Copy may offer the f
 
 Working Copy is an iOS Git client that doubles as a decent text editor. My posts start in a `_drafts` folder, where they stay invisible to Github Pages but will show up on my dev server which is hosted on Digital Ocean. This isn’t strictly necessary unless you like to preview your posts before they go live.
 
-My header images usually come from Flickr Commons, which has a nearly endless supply of interesting, royalty-free images.
+My header images usually come from Flickr Commons, which has a nearly endless supply of interesting, royalty-free images. Using the share sheet, you can take an image and send it directly to Working Copy, naming it whatever you like. If you’ve got an image stored locally, 
