@@ -16,7 +16,11 @@ First let’s talk infrastructure, since that will determine whether anything be
 
 If you use Git to manage your site repository, then Working Copy may offer the functionality you need to move forward. Over the past couple of years this versatile app has gradually taken over much of my formerly-complicated iOS writing workflow.
 
-Working Copy is an iOS Git client that doubles as a pretty nice text editor. My posts start in a `_drafts` folder, where they stay invisible to Github Pages but will show up on my dev server which is hosted on Digital Ocean. This isn’t strictly necessary unless you like to preview your posts before they go live.
+Working Copy is an iOS Git client that doubles as a pretty nice text editor. My posts start in a `_drafts` folder, where they stay invisible to Github Pages but will show up on my dev server which is hosted on Digital Ocean. This isn’t strictly necessary unless you like to preview your posts before they go live. 
+
+If you are going to use Working Copy as your text editor, one think I'll advise _immediately_ is to turn off spell checking in the editor menu. If not, you'll get smart quotes and hyphens where you don't want them. For a static site like Jekyll this can be frustrating and/or a disaster, depending on where things get replaced.
+
+{% include image.html class="right" title="Disable Spellcheck for Markdown" file="disable-spellcheck.jpg" %}
 
 My header images usually come from Flickr Commons, which has a nearly endless supply of interesting, royalty-free images. Using the share sheet, you can take an image and send it directly to Working Copy, naming it whatever you like.
 
