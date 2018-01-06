@@ -10,6 +10,8 @@ caption: "Illustrated Catalogue and General Description of Improved Machine Tool
 
 As you [may](https://daringfireball.net/linked/2018/01/05/transmit-ios) [have](https://sixcolors.com/link/2018/01/panic-ceases-development-of-transmit-for-ios/) [heard](http://leancrew.com/all-this/2018/01/dont-panic/), [Panic](http://panic.com) is [shelving](https://panic.com/blog/the-future-of-transmit-ios/) Transmit for iOS. While they’re continuing work on their excellent IDE [Coda](https://panic.com/coda-ios/) (which offers a superset of Transmit’s functionality) it’s hard not to mourn the loss of yet another professional application on iOS. While Transmit isn't immediately leaving the app store, announcements like this offer an opportunity for its users to reevaluate their workflows. In case it's useful, here's a brief look at how I write and publish from iOS.
 
+{% include image.html class="wide" title="Working Copy and Blink" file="working-copy-blink.jpg" %}
+
 This site uses Jekyll as an engine, hosted via Github Pages. Doing so kills two birds with one stone. First, Github Pages offers a free, reliable hosting service for an appealing static blog engine. Second, it ensures my site is version-controlled, so when I mess something up (it happens _a lot_) I can undo things quickly and easily. 
 
 [Working Copy](https://itunes.apple.com/us/app/working-copy/id896694807?mt=8) is an iOS Git client that doubles as a pretty nice text editor. If you use Git to manage your site repository (and if not, what _do_ you use?) Working Copy may offer the functionality you're looking for. Over the past few years this versatile app has taken over nearly all of my formerly-complicated iOS writing workflow.
