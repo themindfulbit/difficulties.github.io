@@ -3,7 +3,7 @@ layout: post
 title: 'Writing and Publishing with Working Copy'
 author: [Erik Hess]
 categories: [technology]
-tags: [writing, meta, ios]
+tags: [writing, meta, ios, working copy, transmit, blink]
 banner: large-lathe.jpg
 caption: "Illustrated Catalogue and General Description of Improved Machine Tools for Working Metal [Sellers, William & Co., 1899](https://flic.kr/p/oxe2XT)"
 ---
