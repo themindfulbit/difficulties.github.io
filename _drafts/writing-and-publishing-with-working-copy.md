@@ -12,7 +12,7 @@ As you [may](https://daringfireball.net/linked/2018/01/05/transmit-ios) [have](h
 
 {% include image.html class="wide" title="Working Copy and Blink" file="working-copy-and-blink.jpg" %}
 
-This site uses [Jekyll](https://jekyllrb.com) as an engine, hosted via [Github Pages](https://pages.github.com). Doing so kills two birds with one stone. First, Github Pages offers a free, reliable hosting service for an appealing static blog engine. Second, it ensures my site is version-controlled, so when I mess something up (it happens _a lot_) I can undo things quickly and easily. 
+This site uses [Jekyll](https://jekyllrb.com) as an engine, hosted via [Github Pages](https://pages.github.com). Doing so kills two birds with one stone. First, Github Pages offers a free, reliable hosting service for an appealing static blog engine. Second, it ensures my site is version-controlled, so when I mess something up (which happens _a lot_) I can undo things quickly and easily. 
 
 [Working Copy](https://itunes.apple.com/us/app/working-copy/id896694807?mt=8) is an iOS Git client that doubles as a pretty nice text editor. If you use Git to manage your site repository (and if not, what _do_ you use?) Working Copy may offer the functionality you're looking for. Over the past few years this versatile app has taken over nearly all of my formerly-complicated iOS writing workflow.
 
