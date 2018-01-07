@@ -22,9 +22,9 @@ You begin by cloning your site's repository, which is quite easy if you've alrea
 
 {% include image.html class="right" title="Disable Spellcheck for Markdown" file="disable-spellcheck.jpg" %}
 
-If you _do_ decide to use Working Copy as your text editor, one thing I'll advise _immediately_ is to turn off spell checking in the editor menu. If not, you'll get smart quotes and hyphens where you don't want them. For a static engine like Jekyll this can be frustrating and/or a disaster, depending on where things get replaced.
+If you _do_ decide to use Working Copy as your text editor, one thing I'll advise _immediately_ is to turn off spell checking in the editor menu. If not, you'll get smart quotes and dashes where you don't want them. For a static engine like Jekyll this can be frustrating and/or a disaster, depending on where things get replaced.
 
-My header images usually come from Flickr Commons, which has a nearly endless supply of interesting, royalty-free images, as long as your tastes run towards the quirky-historical. Using the Safari share sheet, you can take an image and send it directly to Working Copy, naming it whatever you like. If you’ve got an image saved locally -- say you’ve made some edits in Pixelmator -- you can do the same thing from there. Pixelmator can also open existing files from within Working Copy, then overwrite them with the changes you've made.
+My header images usually come from Flickr Commons, which has a nearly endless supply of interesting royalty-free images, as long as your tastes run towards the quirky-historical. Using the Safari share sheet, you can take an image and send it directly to Working Copy, naming it whatever you like. If you’ve got an image saved locally -- say you’ve made some edits in Pixelmator -- you can do the same thing from there. Pixelmator can also open existing files from within Working Copy, then overwrite them with the changes you've made.
 
 {% include image.html class="right" title="You can save to your repository right from Safari." file="safari-share.jpg" %}
 
