@@ -16,4 +16,4 @@ In late 2011 I built the first iteration of *The Mindful Bit*. It now has a diff
 
 The site itself has been rebuilt six times, using [Tumblr](http://tumblr.com), [WordPress](http://wordpress.org), [Squarespace](http://squarespace.com), [Ruhoh](http://ruhoh.com), [Statamic](http://statamic.com), and now [Jekyll](http://jekyllrb.com/) hosted via [Github Pages](https://pages.github.com/). It's currently typeset in Georg Duffner's beautiful [EB Garamond](http://www.georgduffner.at/ebgaramond/). I use the site to play around with new web technologies, so it changes a lot. I hope that doesn't get too annoying for you.
 
-These thoughts &ndash; however little they're worth &ndash; are my own and not those of my past or current employers. We are what we do, not what we claim to be. This site is no exception.
+These thoughts &ndash; however little they're worth &ndash; are my own and not those of my past or current employers. [We are what we do](https://www.uuworld.org/articles/zen-koan-baizhangs-fox), not who we claim to be. This site is no exception.
