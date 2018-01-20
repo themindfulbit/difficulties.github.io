@@ -1,5 +1,6 @@
 ---
 layout: post
+date: '2018-01-20 07:30:00 -0800'
 title: 'Why Did Marcus Aurelius Allow Commodus to Succeed Him?'
 author: [Erik Hess]
 categories: [ideas]
