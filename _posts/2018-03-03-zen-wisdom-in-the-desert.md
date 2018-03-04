@@ -1,6 +1,6 @@
 ---
 layout: post
-date: '2018-03-02 22:30:00 -0800'
+date: '2018-03-03 22:30:00 -0800'
 title: 'Zen Wisdom in the Desert'
 author: [Erik Hess]
 categories: [ideas]
