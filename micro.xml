@@ -18,7 +18,7 @@ redirect_from: "/micro"
         <title>{{ post.title | xml_escape }}{% if post.subtitle %}: {{ post.subtitle | xml_escape }}{% endif %}</title>
         {% endunless %} 
         <author>{% if post.author %}{{ post.author | array_to_sentence_string }}{% else %}Erik Hess{% endif %}</author>
-        <description>{% if post.banner %}<![CDATA[<figure><img src="{{ site.url}}/assets/img/{{ post.banner }}"/><figcaption>{{ post.caption | markdownify }}</figcaption></figure>]]>{% endif %}{% if post.layout contains 'micro' %}{{ post.content | xml_escape }}{% endif %}<![CDATA[<div class="permalink"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">///</a></div>]]><![CDATA[<figure><img src="{{ site.url}}/assets/theme/rss.jpg?utm_source=RSS&utm_medium=RSS&utm_campaign=RSS%20Reader"/><figcaption>]]></description>
+        <description>{% if post.banner %}<![CDATA[<figure><img src="{{ site.url}}/assets/img/{{ post.banner }}"/><figcaption>{{ post.caption | markdownify }}</figcaption></figure>]]>{% endif %}{% if post.layout contains 'micro' %}{{ post.content | xml_escape }}{% endif %}<![CDATA[<div class="permalink"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">///</a></div>]]></description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{% if post.link %}{{ post.link }}{% else %}{{ post.url | prepend: site.baseurl | prepend: site.url }}{% endif %}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>

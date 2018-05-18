@@ -65,7 +65,7 @@ layout: default
         {{ post.content }}
 
           <div class="post-meta">
-            <span class="date">Posted on {{ post.date | date: "%B %-d, %Y at %l:%M%p" }}</span><span>{% if post.author %}<span class="author">&nbsp;by&nbsp;<a href="{{ site.url }}/archive?search={{ post.author }}">{{ post.author }}</a></span>{% endif %}
+            <span class="date">Posted on {{ post.date | date: "%B %-d, %Y at %l:%M%p" }}</span><span>{% if post.author %}<span class="author">&nbsp;by&nbsp;<a href="{{ site.url }}/archive?search={{ post.author }}">{{ post.author }}</a></span>&nbsp;&ndash;&nbsp;<a href="https://github.com/themindfulbit/difficulties.github.io/issues/new">Leave a Comment</a>{% endif %}
           </div>
           <div class="permalink">
             <a href="{{ site.url }}{{ post.url }}">
