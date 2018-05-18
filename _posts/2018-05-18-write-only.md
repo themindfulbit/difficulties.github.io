@@ -11,7 +11,7 @@ caption: "The Palatine from the Aventine, 1885. [The British Library](https://fl
 
 If you sip a glass of wine, you might think of a few nice things to say about how it tastes. If someone dumps a barrel of wine on your head every thirty seconds, the nuances can get lost.
 
-I've been on a bit of a social media sabbatical recently. To be fair, it's been more like a "visual internet" sabbatical. With the exception of a few favorite RSS feeds, I've stepped away from Twitter, deleted Facebook (something I should have done long ago) and swapped news sites for paper books and magazines. Podcasts stayed because I have a long car commute, and it's much harder to mindlessly skip between audio files.
+I've been on a bit of a social media sabbatical recently. To be fair, it's been more like a "visual internet" sabbatical. With the exception of a few favorite RSS feeds, I've stepped away from Twitter, deleted Facebook (something I should have done long ago) and swapped news sites for paper books, magazines, and NPR. Podcasts stayed because I have a long car commute, and it's much harder to mindlessly skip between audio files.
 
 As part of this experiement, I've been trying to swap analog for digital whenever possible. The Field Notes and Bullet Journal are back, and tasks and calendar items are managed (often poorly, but still managed) on paper. My goal is to reduce the number of times I need to go to a device even for "productive" tasks. I'm highly vulnerable to useless distractions.
 
