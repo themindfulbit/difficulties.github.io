@@ -5,7 +5,11 @@
     <div class="post blue prev">
       <a href="{{ page.next.url }}" class="newer">
         <div class="key">Newer</div>
+        {% if page.next.layout == 'micro'  %} 
+        <div class="title">{{ page.next.content | strip_html }}</div>
+        {% else %}
         <div class="title">{{ page.next.title }}</div>
+        {% endif %}
       </a>
     </div>
   {% else %}
@@ -21,7 +25,11 @@
     <div class="post red next">
       <a href="{{ page.previous.url }}" class="older">
         <div class="key">Older</div>
+        {% if page.previous.layout == 'micro'  %} 
+        <div class="title">{{ page.previous.content | strip_html }}</div>
+        {% else %}
         <div class="title">{{ page.previous.title }}</div>
+        {% endif %}
       </a>
     </div>
   {% else %}

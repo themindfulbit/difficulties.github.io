@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<div class="home">
+<div class="micro">
 
     {% for post in site.posts limit:5 %}
+    {% if post.layout contains 'micro' %}
 
     <div class="post">
 
@@ -34,10 +35,6 @@ layout: default
         {% endif %}
       </div>
 
-      {% if post.layout contains "micro" %}
-      <div class="post-header micro">&nbsp;
-      </div> 
-      {% else %}  
       <div class="post-header">
         {% if post.link %}
           <h1 class="post-title"><a href="{{ post.link }}">{{ post.title }}&nbsp;&rArr;</a></h1>
@@ -47,8 +44,11 @@ layout: default
         {% if post.subtitle %}
           <h2 class="post-subtitle">{{ post.subtitle }}</h2>
         {% endif %}
+
+        <p class="post-meta">
+          <span class="date">{{ post.date | date: "%B %-d, %Y" }}&nbsp;</span><span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>{% if post.author %}<span class="author">&nbsp;By <a href="{{ site.url }}/archive?search={{ post.author }}">{{ post.author }}</a></span>{% endif %}
+        </p>
       </div>
-      {% endif %}
 
       {% if post.layout == "episode" %}
       <div class="show-meta">
@@ -66,17 +66,17 @@ layout: default
       <div class="post-content">
         {{ post.content }}
 
-          <div class="post-meta">
-            <span class="date">Posted on {{ post.date | date: "%B %-d, %Y at %l:%M%p" }}</span><span>{% if post.author %}<span class="author">&nbsp;by&nbsp;<a href="{{ site.url }}/archive?search={{ post.author }}">{{ post.author }}</a></span>{% endif %}
-          </div>
+        {% if post.link or post.layout contains 'micro' %}
           <div class="permalink">
             <a href="{{ site.url }}{{ post.url }}">
               <span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>
             </a>
           </div>
+        {% endif %}
       </div>
     </div>
 
+    {% endif %}
     {% endfor %}
 
 </div>

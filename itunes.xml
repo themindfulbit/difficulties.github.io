@@ -20,9 +20,9 @@ redirect_from: "/itunes"
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="{{ site.url }}/assets/img/tmb-dp-itunes.jpg" />
     <itunes:keywords>TheMindfulBit,Technology,Design,Ideas,Productivity,Development</itunes:keywords>
-    <itunes:subtitle>An occasional audio companion to The Mindful Bit.</itunes:subtitle>
-    <itunes:summary>An occasional audio companion to Erik Hess's blog, The Mindful Bit.</itunes:summary>
-    <description>An occasional audio companion to Erik Hess's blog, The Mindful Bit.</description>
+    <itunes:subtitle>An occasional audio companion to Difficulties.</itunes:subtitle>
+    <itunes:summary>An occasional audio companion to Erik Hess's blog, Difficulties.</itunes:summary>
+    <description>An occasional audio companion to Erik Hess's blog, Difficulties.</description>
     <itunes:block>no</itunes:block>
     <itunes:category text="Technology" />
     <ttl>30</ttl>

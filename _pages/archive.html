@@ -11,7 +11,11 @@ title: Archive
       <li class="archive-item">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
           <div class="item-core">
+            {% if post.layout == 'micro'%}
+            <h2 class="post-title"><span class="background">{{ post.content | strip_html }}</span></h2>
+            {% else %}
             <h2 class="post-title"><span class="background">{{ post.title }}</span></h2>
+            {% endif %}
             <h3 class="post-date"><span class="background">{{ post.date | date: "%b %-d, %Y" }}</span></h3>
           </div>
           <div class="item-metadata">

@@ -1,0 +1,18 @@
+<h1 class="page-heading">A Few Brief Thoughts</h1>
+
+<div class="micro">
+
+{% for post in site.micro limit:3 %}
+
+  <div class="post">
+    {{ post.content}}
+    <div class="permalink post-meta">
+      <a href="{{ site.url }}{{ post.url }}">
+        <span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>&nbsp;<span class="date">{{ post.date | date: "%B %-d, %Y %l:%M %p" }}
+      </a>
+    </div>
+  </div>
+
+{% endfor %}
+
+</div>

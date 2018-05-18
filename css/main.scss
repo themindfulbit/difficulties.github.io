@@ -571,7 +571,7 @@ body {
 
     .logo {
       position: relative;
-      left: -0.2em;
+      left: -0.4em;
     }
 
     .navbar {
@@ -589,7 +589,6 @@ body {
       font-variant: small-caps;
       text-transform: lowercase;
       letter-spacing: 0.05em;
-      margin-top: 3em;
       margin-bottom: 1em;
     }
     
@@ -645,12 +644,11 @@ body {
         .post-title {
           @include column(12,12);
           padding: 0 0 0.1em;
-          margin: 0;
+          margin: 1.2em 0 1.2em;
           font-weight: 500;
           font-variant: small-caps;
           text-transform: lowercase;
           letter-spacing: 0.05em;
-          margin-top: 1.2em;
 
           a {
             color: $black;
@@ -679,6 +677,14 @@ body {
             color: $dark-gray;
           }
         }
+      }
+
+      .permalink .date {
+        display: inline-block;
+        padding-left: 0.2em;
+        color: $gray;
+        font-style: italic;
+        font-size: 0.9em;
       }
 
       .page-header {
@@ -908,13 +914,28 @@ body {
           border-top: 1px dotted $light-gray;
           font-size: 0.7em;
         }
+        
+        .post-meta {
+          @include column(12,12);
+          padding: 0;
+          color: $gray;
+          font-family: Garamond, serif;
+          font-size: 0.9em;
+          font-style: italic;
+          margin-top: 0.8em;
+          margin-bottom: 0.8em;
+
+          a {
+            color: $dark-gray;
+          }
+        }
       }
     }
 
     .post-footer,
     .page-footer {
       @include column(12,12);
-      margin-top: 1.5em;
+      margin-top: 0em;
       margin-bottom: 1em;
       padding: 0.7em 0 0.3em;
       border-top: 1px solid $light-gray;
@@ -959,6 +980,15 @@ body {
       }
     }
 
+    .home .post,
+    .micro .post {
+      margin-bottom: 2em;
+    }
+
+    .home .post:last-of-type {
+      margin-bottom: 0.5em;
+    } 
+    
     .pagination {
   		@include column(12,12);
   		padding: 0;
@@ -1288,7 +1318,7 @@ body {
       text-align: right;
       font-size: 1em;
       list-style-type: none;
-      padding-top: 0.3em;
+      padding-top: 0.25em;
       margin-bottom: 0.2em;
       font-family: Garamond, serif;
 

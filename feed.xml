@@ -13,6 +13,7 @@ redirect_from: "/feed"
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:3 %}
+    {% unless post.layout contains 'micro' %}
       <item>
         <title>{% if post.link %}{{ post.title | xml_escape }}{% if post.subtitle %}: {{ post.subtitle | xml_escape }}{% endif %}<![CDATA[ &rArr;]]>{% else %}{{ post.title | xml_escape }}{% if post.subtitle %}: {{ post.subtitle | xml_escape }}{% endif %}{% endif %}</title>
         <author>{% if post.author %}{{ post.author | array_to_sentence_string }}{% else %}Erik Hess{% endif %}</author>
@@ -28,6 +29,7 @@ redirect_from: "/feed"
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
+      {% endunless %}
     {% endfor %}
   </channel>
 </rss>

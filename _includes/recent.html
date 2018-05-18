@@ -1,7 +1,8 @@
-<h1 class="page-heading">Recent Posts</h1>
+<h1 class="page-heading">Other Recent Posts</h1>
 
 <ul class="post-list">
-  {% for post in site.posts offset:1 limit:6 %}
+  {% for post in site.posts offset:5 limit:4 %}
+  {% unless post.layout contains "micro" %}
     <li class="post-item">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
         <div class="post-banner" style="background-image: url({{ site.url }}/assets/img/{{ post.banner }})">&nbsp;</div>
@@ -11,6 +12,7 @@
         </div>
       </a>
     </li>
+  {% endunless %}
   {% endfor %}
   <li class="post-item post-more">
     <a class="post-link" href="{{ site.url}}/archive">
