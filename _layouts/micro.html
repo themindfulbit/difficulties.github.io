@@ -9,7 +9,7 @@ layout: default
     {{ content }}
 
       <div class="post-meta">
-        <span class="date">Posted on {{ page.date | date: "%B %-d, %Y at %l:%M%p" }}</span><span>{% if page.author %}<span class="author">&nbsp;by&nbsp;<a href="{{ site.url }}/archive?search={{ page.author }}">{{ page.author }}</a></span>{% endif %}
+            <span class="date">Posted on {{ page.date | date: "%B %-d, %Y at %l:%M%p" }}</span><span>{% if page.author %}<span class="author">&nbsp;by&nbsp;<a href="{{ site.url }}/archive?search={{ page.author }}">{{ page.author }}</a></span>&nbsp;&mdash;&nbsp;<a href="https://github.com/themindfulbit/difficulties.github.io/issues/new">Leave a Comment</a>{% endif %}
       </div>
       <div class="permalink">
         <a href="{{ site.url }}{{ page.url }}">
