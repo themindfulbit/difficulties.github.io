@@ -13,7 +13,7 @@ If you sip a glass of wine, you might think of a few nice things to say about ho
 
 I've been on a bit of a social media sabbatical recently. To be fair, it's been more like a "visual internet" sabbatical. With the exception of a few favorite RSS feeds, I've stepped away from Twitter, deleted Facebook (something I should have done long ago) and swapped news sites for paper books, magazines, and NPR. Podcasts stayed because I have a long car commute, and it's much harder to mindlessly skip between audio files.
 
-As part of this experiement, I've been trying to swap analog for digital whenever possible. The Field Notes and Bullet Journal are back, and tasks and calendar items are managed (often poorly, but still managed) on paper. My goal is to reduce the number of times I need to go to a device even for "productive" tasks. I'm highly vulnerable to useless distractions.
+As part of this experiement, I've been trying to replace digital with  analog whenever possible. The Field Notes and Bullet Journal are back, and tasks and calendar items are managed (often poorly, but still managed) on paper. My goal is to reduce the number of times I need to go to a device even for "productive" tasks. I'm highly vulnerable to useless distractions.
 
 The result of all this is a return of focus, centeredness, and even creativity that feels like it's been gone for years. The refresh grind had left me feeling burned, without enough energy to even pick a medium, much less make anything worthwhile in it. 
 
