@@ -25,9 +25,9 @@ My next experiment is going to be called *write-only social media*. While I won'
 
 There have been a few updates to my site to support this new plan. Posts for all destinations will originate here. Starting stuff on your own site seems like a good idea these days.
 
-For RSS addicts like myself, my [existing RSS feed](http://hess.fm/feed.xml) will continue to host longer pieces with linked quotes and commentary as before. 
+For RSS addicts like myself, my [existing RSS feed]({{ site.url }}/feed.xml) will continue to host longer pieces with linked quotes and commentary as before. 
 
-Micro-posts and images will also be posted here, but will show up in their own feed, cleverly named [Minor Difficulties](http://hess.fm/micro.xml). RSS readers aren't great with title-less posts, but the feed should still work fine if you prefer the shorter stuff in Reeder or Fiery Feeds. Those same images and micro-posts will also get routed to Micro.blog if you prefer to see it there. Photos will be artisinally hand-posted to Instagram, because they don't have an API for anything more modern. Twitter is still TBD. 
+Micro-posts and images will also be posted here, but will show up in their own feed, cleverly named [Minor Difficulties]({{ site.url }}/micro.xml). RSS readers aren't great with title-less posts, but the feed should still work fine if you prefer the shorter stuff in Reeder or Fiery Feeds. Those same images and micro-posts will also get routed to Micro.blog if you prefer to see it there. Photos will be artisinally hand-posted to Instagram, because they don't have an API for anything more modern. Twitter is still TBD. 
 
 I've even added comments to the site, but they're not what you think. Click on the "Leave a Comment" link below to learn more. Prepare to be underwhelmend. 
 

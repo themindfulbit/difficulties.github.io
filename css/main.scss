@@ -980,14 +980,74 @@ body {
       }
     }
 
-    .home .post,
-    .micro .post {
+    .home .post {
       margin-bottom: 2em;
     }
 
     .home .post:last-of-type {
       margin-bottom: 0.5em;
-    } 
+    }
+
+    .home .micro-post {
+      @include column(12,12);
+      background-color: $lighter-gray;
+      margin-left: 0;
+      padding: 0;
+      margin-bottom: 2em;
+      font-style: italic;
+
+
+      .banner-image {
+        @include column(12,12);
+        padding: 0;
+        border: 1px solid $light-gray;
+      }
+
+      .post-content {
+         @include column(12,12);
+         padding: 1em;
+         line-height: 1em;
+         letter-spacing: 0;
+         font-size: 1.2em;
+
+         a,
+         a:visited,
+         a:active,
+         a:focus {
+           color: $dark-gray;
+           text-decoration: underline;
+
+           &:hover {
+             text-decoration: underline;
+           }
+         }
+
+        .micro-footer {
+          font-size: 0.8em;
+          color: $black;
+   
+           a,
+           a:visited,
+           a:active,
+           a:focus {
+             color: $gray;
+             text-decoration: none;
+
+             &:hover {
+               text-decoration: none;
+             }
+           }
+
+           .date {
+             display: inline-block;
+             padding: 0 0 0 0.3em;
+             position: relative;
+             top: 0.05em;
+           }
+         }
+       }
+      }
+     
     
     .pagination {
   		@include column(12,12);
@@ -1111,6 +1171,10 @@ body {
           background-size: cover;
           background-position: center;
           height: 12em;
+
+          &.micro {
+            margin-bottom: 0;
+          }
         }
 
         .post-data {
@@ -1120,10 +1184,23 @@ body {
           .post-title {
             font-size: 1.2em;
             color: $black;
-            margin-bottom: 0;
+            margin-bottom: 0.15em;
             text-transform: lowercase;
             font-variant: small-caps;
             letter-spacing: 0.05em;
+
+            &.micro {
+              font-variant: normal;
+              font-style: italic;
+              text-transform: none;
+              line-height: 1em;
+              padding-top: 1em;
+              letter-spacing: 0;
+
+              p {
+                margin-bottom: 0;
+              }
+            }
           }
 
           .post-meta {

@@ -4,7 +4,27 @@ layout: default
 
 <div class="home">
 
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:10 %}
+
+    {% if post.layout contains "micro" %}
+
+    <div class="micro-post">
+        {% if post.banner %}
+          <a href="{{site.url }}{{ post.url }}">
+            <img class="banner-image" src="{{ site.url }}/assets/img/{{ post.banner }}" />
+          </a>
+        {% endif %}
+        <div class="post-content">
+          {{ post.content }}
+          <div class="micro-footer">
+            <a href="{{site.url }}{{ post.url }}">
+              <span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>&nbsp;<span class="date">{{ post.date | date: "%B %-d, %Y at %l:%M%p" }}</span>
+            </a>
+          </div>
+        </div>
+    </div>
+    
+    {% else %}
 
     <div class="post">
 
@@ -75,9 +95,19 @@ layout: default
       </div>
     </div>
 
+    {% endif %}
     {% endfor %}
 
 </div>
 
-{% include recent.html %}
+<ul class="post-list">
+  <li class="post-item post-more">
+    <a class="post-link" href="{{ site.url}}/archive">
+      <div class="post-data">
+        <h3 class="post-meta">Find more posts in the archive</h3>
+      </div>
+    </a>
+  </li>
+</ul>
+
 {% include meta.html %}
