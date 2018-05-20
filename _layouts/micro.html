@@ -1,24 +1,21 @@
 ---
 layout: default
 ---
-<div class="post micro">
 
-  {% include post-header.html %}
-
+<div class="micro-post">
+  {% if page.banner %}
+  <a href="{{site.url }}{{ page.url }}">
+    <img class="banner-image" src="{{ site.url }}/assets/img/{{ page.banner }}" />
+    </a>
+  {% endif %}
   <div class="post-content">
-    {{ content }}
-
-      <div class="post-meta">
-            <span class="date">Posted on {{ page.date | date: "%B %-d, %Y at %l:%M%p" }}</span><span>{% if page.author %}<span class="author">&nbsp;by&nbsp;<a href="{{ site.url }}/archive?search={{ page.author }}">{{ page.author }}</a></span>&nbsp;&mdash;&nbsp;<a href="https://github.com/themindfulbit/difficulties.github.io/issues/new">Leave a Comment</a>{% endif %}
-      </div>
-      <div class="permalink">
-        <a href="{{ site.url }}{{ page.url }}">
-          <span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>
-        </a>
-      </div>
+    {{ page.content }}
+    <div class="micro-footer">
+      <a href="{{site.url }}{{ page.url }}">
+        <span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>&nbsp;<span class="date">{{ page.date | date: "%B %-d, %Y at %l:%M%p" }}</span>
+      </a>
+    </div>
   </div>
-
-  {% include post-footer.html %}
-  {% include pagination.html %}
-
 </div>
+
+ {% include pagination.html %}

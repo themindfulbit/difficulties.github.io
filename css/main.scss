@@ -988,13 +988,23 @@ body {
       margin-bottom: 0.5em;
     }
 
-    .home .micro-post {
+    .micro-post {
       @include column(12,12);
       background-color: $lighter-gray;
       margin-left: 0;
       padding: 0;
       margin-bottom: 2em;
       font-style: italic;
+
+      &.gallery {
+        @include column(6,12);
+        padding: 0 0.5em 0 0; 
+        background-color: transparent;
+
+        &:nth-child(even) {
+          padding: 0 0 0 0.5em;
+        }
+      }
 
 
       .banner-image {
@@ -1042,7 +1052,7 @@ body {
              display: inline-block;
              padding: 0 0 0 0.3em;
              position: relative;
-             top: 0.05em;
+             top: 0.03em;
            }
          }
        }

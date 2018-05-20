@@ -1,10 +1,9 @@
 ---
-layout: post
+layout: micro
 title: 'Gnomes in Snow'
-categories: [gallery]
+categories: [micro, gallery]
 tags: [gnomes]
 banner: gnomes.jpg
-caption:
-type: image
 ---
 
+Gnomes in snow.

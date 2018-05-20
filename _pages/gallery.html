@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /gallery
+title: Gallery
+---
+
+{% for post in site.posts %}
+{% if post.categories contains "gallery" %}
+
+<div class="micro-post gallery">
+  <a href="{{site.url }}{{ post.url }}">
+    <img class="banner-image" src="{{ site.url }}/assets/img/{{ post.banner }}" />
+  </a>
+</div>
+
+
+{% endif %}
+{% endfor %}
+
+{% include meta.html %}

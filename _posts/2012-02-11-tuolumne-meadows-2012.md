@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: micro
 title: Tuolumne Meadows
-categories: [gallery]
+categories: [micro, gallery]
 tags: [yosemite]
 banner: tuolumne.jpg
-caption: Tuolumne Meadows, New Year’s Day 2012
-type: image
 ---
+
+Tuolumne Meadows, New Year’s Day 2012

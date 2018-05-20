@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: micro
 title: 'Formation'
-categories: [flying, gallery]
+categories: [micro, flying, gallery]
 tags: [tiger]
 banner: formation.jpg
-caption:  
-type: image
 ---
+
+Formation
