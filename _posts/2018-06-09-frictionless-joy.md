@@ -14,4 +14,4 @@ On [his blog](https://www.baty.net/2018/the-frictionless-joy-of-using-a-single-p
 
 > It’s the *idea* of Linux that I love. Wall to wall freely distributed, open source software is such a cool thing. Being free from reliance upon any one particular vendor is a great feeling. Having endless choices for how the operating system and software behave is liberating. I like having a variety of hardware options and not being stuck with a brand new laptop with the shittiest keyboard in the world. And I must admit, I don’t mind the nerd creds that using something like Arch provides. It makes me feel like I’m zagging, and I like zagging.
 
-Read the rest for his impressions and where he's going from here. My challenges have been similar, but they're taking me in a slightly different direction. 
+Read the rest for his impressions and where he's going from here. My challenges have been similar, but they're taking me in a slightly [different direction](http://bulletjournal.com/).
