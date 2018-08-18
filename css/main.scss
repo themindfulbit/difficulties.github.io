@@ -1004,6 +1004,10 @@ body {
         &:nth-child(even) {
           padding: 0 0 0 0.5em;
         }
+        
+        &:nth-child(odd) {
+          clear: both; 
+        }
       }
 
 
