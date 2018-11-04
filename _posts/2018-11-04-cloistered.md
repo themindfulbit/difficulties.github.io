@@ -11,7 +11,7 @@ caption: "Moissac. Church of Saints Peter and Paul, 1874. [A. D. White Architect
 
 I changed jobs about a year ago and it's had a noticeable impact.
 
-First, I gained a daily commute of an hour-and-a-half in each direction. The commute itself wasn't necessarily new, but instead of doing it once or twice a month, I started doing it every day. Three hours is a long time to spend on the road, especially when it's the beautiful desolation of Northern Nevada. Still, the experience has proven surprisingly enjoyable. Podcast hosts and audiobook performers (with the help of Ovecast and Audible) keep me sane and attentive.
+First, I gained a daily commute of an hour-and-a-half in each direction. The commute itself wasn't necessarily new, but instead of doing it once or twice a month, I started doing it every day. Three hours is a long time to spend on the road, especially when it's the beautiful desolation of Northern Nevada. Still, the experience has proven surprisingly enjoyable. Podcast hosts and audiobook performers (with the help of Overcast and Audible) keep me sane and attentive.
 
 Another major change is that I work in a room without an internet connected computer or even a functioning landline telephone. I leave all my personal tech behind when I walk in the door. Once there, I sit at an anemic Windows machine and wrestle with Microsoft Access and Excel for eight or more hours at a stretch. The space I inhabit is off the beaten path and requires a code to enter. When my co-workers are out it's not unusual for me to go most of the day without seeing anyone.
 
