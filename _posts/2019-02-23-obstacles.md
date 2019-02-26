@@ -7,7 +7,7 @@ categories: [mindfulness, technology]
 tags: [writing, tools]
 banner: rapids.jpg 
 caption: "The Whirlpool [Picturesque America; or, The land we live in, 1872.](https://archive.org/stream/picturesqueameri01brya/picturesqueameri01brya#page/440/mode/1up)"
-issue:
+issue: 3
 ---
 It's been a while since I've written, which is as much a statement about the turmoil of my inner life as the outer one. This is nothing new, of course. The churn that happens behind the scenes always seems to dwarf what's on the outside, like some kind of mental iceberg.
 
