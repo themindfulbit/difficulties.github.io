@@ -9,6 +9,9 @@ layout: default
     </a>
   {% endif %}
   <div class="post-content">
+    {% if post.title != "" %}
+       <h1 class="post-title"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+    {% endif %}
     {{ page.content }}
     <div class="micro-footer">
       <a href="{{site.url }}{{ page.url }}">

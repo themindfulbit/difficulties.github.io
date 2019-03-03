@@ -1035,6 +1035,21 @@ body {
            }
          }
 
+        .post-title {
+           @include column(12,12);
+           padding: 0 0 0.1em;
+           margin: 0.2em 0 0.8em;
+           font-size: 1.1em; 
+           font-weight: 500;
+           font-style: italic;
+
+           a {
+             color: $black;
+             text-decoration: none;
+           }
+         }
+
+
         .micro-footer {
           font-size: 0.8em;
           color: $black;
@@ -1298,6 +1313,10 @@ body {
               .background {
                 background-color: $ecru;
                 padding-right: 0.5em;
+
+                .fas {
+                  margin-right: 1em;
+                }
               }
             }
 

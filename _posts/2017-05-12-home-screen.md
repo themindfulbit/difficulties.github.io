@@ -1,5 +1,5 @@
 ---
-layout: episode
+layout: post
 episode: '001'
 title: 'Home Screen'
 author: [Erik Hess]

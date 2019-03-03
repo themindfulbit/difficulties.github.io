@@ -15,6 +15,9 @@ layout: default
           </a>
         {% endif %}
         <div class="post-content">
+          {% if post.title != "" %} 
+            <h1 class="post-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+          {% endif %}  
           {{ post.content }}
           <div class="micro-footer">
             <a href="{{site.url }}{{ post.url }}">
@@ -52,10 +55,6 @@ layout: default
         {% endif %}
       </div>
 
-      {% if post.layout contains "micro" %}
-      <div class="post-header micro">&nbsp;
-      </div> 
-      {% else %}  
       <div class="post-header">
         {% if post.link %}
           <h1 class="post-title"><a href="{{ post.link }}">{{ post.title }}&nbsp;&rArr;</a></h1>
@@ -66,7 +65,6 @@ layout: default
           <h2 class="post-subtitle">{{ post.subtitle }}</h2>
         {% endif %}
       </div>
-      {% endif %}
 
       {% if post.layout == "episode" %}
       <div class="show-meta">
