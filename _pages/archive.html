@@ -12,9 +12,9 @@ title: Archive
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
           <div class="item-core">
             {% if post.layout == 'micro'%}
-            <h2 class="post-title"><span class="background">{{ post.content | strip_html }}</span></h2>
+            <h2 class="post-title"><span class="background">{% if post.categories contains "gallery" %}<i class="fas fa-camera-retro"></i>&nbsp;&nbsp;{% else %}<i class="fas fa-paper-plane"></i>&nbsp;&nbsp;{% endif %}{{ post.content | strip_html }}</span></h2>
             {% else %}
-            <h2 class="post-title"><span class="background">{{ post.title }}</span></h2>
+            <h2 class="post-title"><span class="background">{% if post.categories contains "link" %}<i class="fas fa-external-link-alt"></i>&nbsp;&nbsp;{% else %}<i class="fas fa-book"></i>&nbsp;&nbsp;{% endif %}{{ post.title }}</span></h2>
             {% endif %}
             <h3 class="post-date"><span class="background">{{ post.date | date: "%b %-d, %Y" }}</span></h3>
           </div>
