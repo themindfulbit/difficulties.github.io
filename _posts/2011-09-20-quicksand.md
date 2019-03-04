@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: micro
 title: Quicksand
 categories: [mindfulness]
 ---

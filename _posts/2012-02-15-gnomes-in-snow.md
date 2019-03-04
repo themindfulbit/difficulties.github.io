@@ -5,5 +5,3 @@ categories: [micro, gallery]
 tags: [gnomes]
 banner: gnomes.jpg
 ---
-
-Gnomes in snow.

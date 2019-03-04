@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: micro
 title: 'Interruption'
 categories: [mindfulness, technology]
 ---

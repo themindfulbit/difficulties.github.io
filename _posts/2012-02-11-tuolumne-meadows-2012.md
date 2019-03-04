@@ -6,4 +6,4 @@ tags: [yosemite]
 banner: tuolumne.jpg
 ---
 
-Tuolumne Meadows, New Year’s Day 2012
+New Year’s Day 2012
