@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: micro
 title: 'State of Peace'
 categories: [mindfulness]
 tags: [buddhism]

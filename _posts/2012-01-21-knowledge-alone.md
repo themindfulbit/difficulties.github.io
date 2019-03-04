@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: micro
 title: Knowledge Alone
 categories: [mindfulness]
-epigram: 'Knowledge alone will not help you find happiness.'
-epi-cite: 'Bhante Gunaratana, Eight Mindful Steps to Happiness'
 ---
+> Knowledge alone will not help you find happiness.
+>
+> &ndash; Bhante Gunaratana, Eight Mindful Steps to Happiness
