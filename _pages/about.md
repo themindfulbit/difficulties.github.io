@@ -12,7 +12,7 @@ Outside the Navy, I've worked at [high90](http://high90.com) and collaborated wi
 
 ### The Site
 
-In late 2011 I built the first iteration of *The Mindful Bit*. It now has a different name that better reflects my struggle to understand the world. I'm still fascinated by the intersection of mindfulness, technology, and design. I'm still puzzled and fascinated by the world's impermanent, emergent, and unsatisfying nature. I'll be working on mindfulness for the rest of my life. While I don't have any good answers, in the meantime we can have enlightening conversations around the questions.
+In late 2011 I built the first iteration of *The Mindful Bit*. It now has a different name that better reflects my struggle to understand the world. I'm still fascinated by the intersection of mindfulness, technology, and design. I'm still puzzled by the world's impermanent, emergent, and unsatisfying nature. I'll be working on mindfulness for the rest of my life. While I don't have any good answers, in the meantime we can have enlightening conversations around the questions.
 
 The site itself has been rebuilt six times, using [Tumblr](http://tumblr.com), [WordPress](http://wordpress.org), [Squarespace](http://squarespace.com), [Ruhoh](http://ruhoh.com), [Statamic](http://statamic.com), and now [Jekyll](http://jekyllrb.com/) hosted via [Github Pages](https://pages.github.com/). It's currently typeset in Georg Duffner's beautiful [EB Garamond](http://www.georgduffner.at/ebgaramond/). I use the site to play around with new web technologies, so it changes a lot. I hope that doesn't get too annoying for you.
 
