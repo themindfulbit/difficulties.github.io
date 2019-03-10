@@ -3,7 +3,7 @@ layout: micro
 date: ‘2019-03-10 14:32:29 -0700’
 title: "Uptime Winner"
 author: [Erik Hess]
-categories: [micro, gallery]
+categories: [micro]
 banner: 2019-03-10-uptime-winner.jpg
 issue: 4
 ---
