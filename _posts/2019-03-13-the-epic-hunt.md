@@ -3,10 +3,11 @@ layout: post
 date: '2019-03-13 16:25:01 -0700'
 title: 'The Epic Hunt for a Lost World War II Aircraft Carrier'
 author: [Erik Hess]
-categories: [technology]
+categories: [link]
 tags: [history, aviation]
 banner: uss-wasp-cv-7.jpg 
 caption: "USS Wasp (CV-7) on Navy Day, 1940. [San Diego Air and Space Museum](https://flic.kr/p/8nReRq)"
+link: https://www.nytimes.com/2019/03/13/magazine/uss-wasp-lost-world-war-ii-aircraft-carrier.html
 ---
 
 After more than 76 years, *USS Wasp* has [finally been found](https://www.nytimes.com/2019/03/13/magazine/uss-wasp-lost-world-war-ii-aircraft-carrier.html):
