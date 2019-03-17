@@ -1,12 +1,12 @@
 ---
 layout: post
-date: ‘2019-03-16 19:09 -0700’
+date: '2019-03-16 19:09 -0700’
 title: "The Last Word"
 author: [Erik Hess]
 categories: [technology]
 tags: [space, Clarke, 2001]
 banner: lunar-surface.jpg
-caption: [San Diego Air and Space Museum](https://flic.kr/p/bTcFfF)
+caption: '[San Diego Air and Space Museum](https://flic.kr/p/bTcFfF)'
 issue: 4
 ---
 
