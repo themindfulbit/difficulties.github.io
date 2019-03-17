@@ -1,6 +1,6 @@
 ---
 layout: post
-date: '2019-03-16 19:09 -0700’
+date: '2019-03-16 19:09:00 -0700’
 title: "The Last Word"
 author: [Erik Hess]
 categories: [technology]
