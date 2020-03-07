@@ -148,6 +148,8 @@ blockquote {
     display: block;
     text-align: right;
     padding-right: 2em;
+    font-size: 0.8em;
+    line-height: 0.9em;
 
     a {
       color: $gray !important;
@@ -638,12 +640,12 @@ body {
       .post-header,
       .page-header {
         @include column(12,12);
-        padding: 0;
+        padding: 0 0 1.5em;
 
         .post-title {
           @include column(12,12);
           padding: 0 0 0.1em;
-          margin: 1.2em 0 1.2em;
+          margin: 1.2em 0 0.2em;
           font-weight: 500;
           font-variant: small-caps;
           text-transform: lowercase;
@@ -661,6 +663,7 @@ body {
           font-size: 1.2em;
           color: $gray;
           font-weight: normal;
+          font-style: italic;
         }
 
         .post-meta {
@@ -727,6 +730,18 @@ body {
         h6 {
           float: none;
           margin-top: 1em;
+        }
+
+        h1,
+        h2 {
+          font-variant: small-caps;
+          text-transform: lowercase;
+        }
+
+        h3,
+        h4,
+        h5 {
+          font-size: 1.1em;
         }
 
         aside {
@@ -1074,8 +1089,30 @@ body {
            }
          }
        }
-      }
+       
      
+      &.welcome {
+        background-color: transparent;
+        margin-bottom: 1em;
+  
+        .post-content {
+          font-style: italic;
+          text-align: center;
+          font-size: 0.9em;
+          padding: 0.5em;
+        
+          a {
+            text-decoration: none;
+            color: $red;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
     
     .pagination {
   		@include column(12,12);
