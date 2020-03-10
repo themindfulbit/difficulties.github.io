@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about
-banner: Tomcat-NVG.png
+banner: me-nvg.jpg
 ---
 My name is Erik Hess, and I'm a designer, developer, and recovering fighter pilot living in Carson City, Nevada. 
 
@@ -12,23 +12,28 @@ If this is your first visit, here are a few posts to get you started:
 
 These are good places to go next:
 
-### Flying and the Military
+### Flying and Technology
 
 * [Go Manual]({{ site.url }}/blog/go-manual) &ndash; *An aviator's thoughts on car autopilots.*
-* [Multi-Singletasking]({{ site.url }}/blog/multi-singletasking) &ndash; *What goes through your mind when landing on an aircraft carrier?*
-* [Eight]({{ site.url }}/blog/eight) &ndash; *Now should be titled Nine. Great Americans all.*
 * [Death by Powerpoint]({{ site.url }}/blog/death-by-powerpoint) &ndash; *Communicating at the speed of Navy.*
+* [Angle of Attack and UI]({{ site.url }}/blog/angle-of-attack-and-ui) &ndash; *Unlike airspeed, less is more.*
+
+### Flying and the Military
+
+* [Multi-Singletasking]({{ site.url }}/blog/multi-singletasking) &ndash; *What goes through your mind when landing on an aircraft carrier?*
+* [Eight]({{ site.url }}/blog/eight) &ndash; *If written today I'd title this Nine.*
 * [2001-09-11]({{ site.url }}/blog/2001-09-11) &ndash; *It started as a normal day on the USS John F. Kennedy.*
 
-### Life and Technology
+### Life
 
 * [Obstacles]({{ site.url }}/blog/obstacles) &ndash; *The things we put in our way.*
+* [Heaven and Hell]({{ site.url }}/blog/heaven-and-hell) &ndash; *Where can we find them?*
 * [Crux]({{ site.url }}/blog/crux) &ndash; *Stars, DC-3s, and precession.*
 * [Noble Absence]({{ site.url }}/blog/noble-absence) &ndash; *You can't be everywhere at once.*
 * [I am a Dalek]({{ site.url }}/blog/i-am-a-dalek) &ndash; *Appreciating simple things like feet.*
 * [Chance]({{ site.url }}/blog/chance) &ndash; *Life surprises us when we least expect it.*
 
-If you're like me and do better with pictures, they're [here]({{ site.url }}/gallery).
+If you're like me and do better with pictures, they're all [here]({{ site.url }}/gallery).
 
 ## About the Author
 
