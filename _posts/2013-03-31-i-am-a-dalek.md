@@ -2,7 +2,8 @@
 layout: post
 title: 'I am a Dalek'
 categories: [mindfulness]
-tags: [desire, frailty, daleks]
+tags: [desire, frailty, daleks, favorites]
+favorites: "yes"
 banner: stairs.jpg
 summary: "Pretty much anything that involves non-crutch-based mobility sounds really good right now&mdash;even cleaning the dog poo out of the backyard."
 ---

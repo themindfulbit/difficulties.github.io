@@ -4,7 +4,8 @@ date: '2019-02-23 06:45:00 -0800'
 title: 'Obstacles'
 author: [Erik Hess]
 categories: [mindfulness, technology]
-tags: [writing, tools]
+tags: [writing, tools, favorites]
+favorites: "yes"
 banner: rapids.jpg 
 caption: "The Whirlpool [Picturesque America; or, The land we live in, 1872.](https://archive.org/stream/picturesqueameri01brya/picturesqueameri01brya#page/440/mode/1up)"
 issue: 3

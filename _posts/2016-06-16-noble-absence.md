@@ -3,7 +3,8 @@ layout: post
 title: 'Noble Absence'
 author: [Erik Hess]
 categories: [ideas]
-tags: [mindfulness, presence, absence]
+tags: [mindfulness, presence, absence, favorites]
+favorites: "yes"
 banner: leidseplein.jpg
 caption: 'Evening impression of the Leidseplein in Amsterdam, 1960–1965. [J.B. Ingwersen](https://flic.kr/p/oUPsLh)'
 medium: 'https://m.high90.com/noble-absence-ef2cad89ca6e#.o53idtvmm'

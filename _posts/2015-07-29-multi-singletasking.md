@@ -3,7 +3,8 @@ layout: post
 title: 'Multi-Singletasking'
 author: [Erik Hess]
 categories: [mindfulness]
-tags: [multitasking, podcasts, concentration, productivity, flying]
+tags: [multitasking, podcasts, concentration, productivity, flying, favorites]
+favorites: "yes"
 banner: f-4-ramp.jpg
 caption: '[SDASM Archives](https://flic.kr/p/sfa8f2)'
 ---

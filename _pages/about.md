@@ -21,10 +21,10 @@ These are good places to go next:
 ### Flying and the Military
 
 * [Multi-Singletasking]({{ site.url }}/blog/multi-singletasking) &ndash; *What goes through your mind when landing on an aircraft carrier?*
-* [Eight]({{ site.url }}/blog/eight) &ndash; *If written today I'd title this Nine.*
+* [Eight]({{ site.url }}/blog/eight) &ndash; *If written today, this would be titled Nine.*
 * [2001-09-11]({{ site.url }}/blog/2001-09-11) &ndash; *It started as a normal day on the USS John F. Kennedy.*
 
-### Life
+### Life (and Flying and Technology Sometimes Too...)
 
 * [Obstacles]({{ site.url }}/blog/obstacles) &ndash; *The things we put in our way.*
 * [Heaven and Hell]({{ site.url }}/blog/heaven-and-hell) &ndash; *Where can we find them?*

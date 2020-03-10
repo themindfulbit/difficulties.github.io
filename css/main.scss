@@ -80,7 +80,6 @@ h6 {
   @include column(12,12);
   padding: 0;
   font-family: Garamond, serif;
-  text-transform: capitalize;
   font-style: italic;
   margin-top: 0.3em;
   margin-bottom: 0.5em;
@@ -1093,13 +1092,14 @@ body {
      
       &.welcome {
         background-color: transparent;
+        margin-top: 0;
         margin-bottom: 1em;
   
         .post-content {
           font-style: italic;
           text-align: center;
-          font-size: 0.9em;
-          padding: 0.5em;
+          font-size: 1em;
+          padding: 0 0.5em 0.5em;
         
           a {
             text-decoration: none;

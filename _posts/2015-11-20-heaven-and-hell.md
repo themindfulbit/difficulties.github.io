@@ -3,7 +3,8 @@ layout: post
 title: 'Heaven and Hell'
 author: [Erik Hess]
 categories: [mindfulness]
-tags: [emptiness]
+tags: [emptiness, favorites]
+favorites: "yes"
 banner: frog-heaven.jpg
 caption: '[OSU Special Collection](https://flic.kr/p/5V9xEJ)'
 ---

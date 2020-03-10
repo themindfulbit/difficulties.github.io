@@ -1,16 +1,13 @@
 ---
 layout: default
+permalink: /favorites
+title: Favorites
 ---
 
 <div class="home">
-  
-  <div class="micro-post welcome">
-    <div class="post-content">
-        <p>First visit? <a href="{{ site.url }}/about">Start here.</a></p> 
-    </div>
-</div>
 
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts %}
+    {% if post.tags contains "favorites" %}
 
     {% if post.layout contains "micro" %}
 
@@ -86,11 +83,13 @@ layout: default
       {% endif %}
 
       <div class="post-content">
-        {{ post.content }}
+        {{ post.excerpt }}
+
+        <h3 class="post-title"><a href="{{ site.url }}{{ post.url }}">Read more...</a></h3>
 
           <div class="post-meta">
             <div class="date-author"><span class="date">Posted on {{ post.date | date: "%B %-d, %Y at %l:%M%p" }}</span><span>{% if post.author %}<span class="author">&nbsp;by&nbsp;<a href="{{ site.url }}/archive?search={{ post.author }}">{{ post.author }}</a></span>{% endif %}</div>
-            <div class="comments">{% if post.issue %}<a href="https://github.com/themindfulbit/difficulties.github.io/issues/{{ post.issue }}">Leave a Comment</a>{% else %}<a href="https://github.com/themindfulbit/difficulties.github.io/issues/new">Leave a Comment</a>{% endif %}</div>
+        
           </div>
           <div class="permalink">
             <a href="{{ site.url }}{{ post.url }}">
@@ -101,6 +100,7 @@ layout: default
     </div>
 
     {% endif %}
+    {% endif %}  
     {% endfor %}
 
 </div>
