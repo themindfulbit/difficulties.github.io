@@ -39,7 +39,11 @@ If you're like me and do better with pictures, they're all [here]({{ site.url }}
 
 I spent thirteen years on active duty in the US Navy, flying [Tomcats](http://en.wikipedia.org/wiki/F-14_Tomcat) and [Super Hornets](http://en.wikipedia.org/wiki/Boeing_F/A-18E/F_Super_Hornet) off aircraft carriers. The most rewarding part was teaching others to do it too as a [Landing Signal Officer](https://en.wikipedia.org/wiki/Landing_signal_officer). For a short time after leaving active duty I flew [Tigers](https://en.wikipedia.org/wiki/Northrop_F-5) in the Navy Reserve, after which I served at a lower altitude and speed until retiring.
 
-Outside the Navy, I'm a defense analyst for a rapidly growing [consulting firm](http://2circleinc.com). Previously I worked at [high90](http://high90.com) and collaborated with [Gabe Weatherhead](http://macdrifter.com) on a few cool projects like [NerdQuery](http://nerdquery.com), [CriticMarkup](http://criticmarkup.com), and *Generational*, a podcast on the late, great 70 Decibels network. With the help of [Potatowire](http://with.thegra.in), Gabe and I made *Technical Difficulties*. A little more recently, Potatowire and I recorded [Seasons of Obsession](http://seasons.fm). I’m not very active on social media, but when I am you can find me <a rel=“me” href=“https://mastodon.social/@themindfulbit”>here</a>.
+Outside the Navy, I'm a defense analyst for a rapidly growing [consulting firm](http://2circleinc.com). Previously I worked at [high90](http://high90.com) and collaborated with [Gabe Weatherhead](http://macdrifter.com) on a few cool projects like [NerdQuery](http://nerdquery.com), [CriticMarkup](http://criticmarkup.com), and *Generational*, a podcast on the late, great 70 Decibels network. With the help of [Potatowire](http://with.thegra.in), Gabe and I made *Technical Difficulties*. A little more recently, Potatowire and I recorded [Seasons of Obsession](http://seasons.fm). 
+
+<div>
+<p>I’m not very active on social media, but you can find me <a rel=“me” href=“https://mastodon.social/@themindfulbit”>here</a>.</p>
+</div>
 
 ## About the Site
 
