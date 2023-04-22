@@ -41,9 +41,7 @@ I spent thirteen years on active duty in the US Navy, flying [Tomcats](http://en
 
 Outside the Navy, I'm a defense analyst for a rapidly growing [consulting firm](http://2circleinc.com). Previously I worked at [high90](http://high90.com) and collaborated with [Gabe Weatherhead](http://macdrifter.com) on a few cool projects like [NerdQuery](http://nerdquery.com), [CriticMarkup](http://criticmarkup.com), and *Generational*, a podcast on the late, great 70 Decibels network. With the help of [Potatowire](http://with.thegra.in), Gabe and I made *Technical Difficulties*. A little more recently, Potatowire and I recorded [Seasons of Obsession](http://seasons.fm). 
 
-<div>
 <p>I’m not very active on social media, but you can find me <a rel=“me” href=“https://mastodon.social/@themindfulbit”>here</a>.</p>
-</div>
 
 ## About the Site
 
