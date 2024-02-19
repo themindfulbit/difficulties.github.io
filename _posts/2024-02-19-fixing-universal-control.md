@@ -19,7 +19,7 @@ The behavior was so strange I thought I was taking crazy pills for a while, but 
 >
 > ** Also (on the same page), SOFTWARE KEYBOARD > toggle Show Lowercase Keys to ON
 
-While the answer was directed at macOS Monterey, the fix (and the glitch) applies to Sonoma as well. It seems like this quirk only affects users of 3rd party Bluetooth keyboards and mice.
+While the answer was directed at macOS Monterey, the fix (and the glitch) applies to Sonoma as well. It seems like this quirk only affects users of 3rd party Bluetooth keyboards and mice (I'm currently using a clicky Logitech MX Mechanical and MX Anywhere 2S).
 
 As a long-time Synergy (and more recent [Logitech Flow](https://www.logitech.com/en-us/software/features/flow.html)) user with a multi-device multi-platform multi-tasking habit, I appreciate just how simple Universal Control is to use, particulary with iPad and iPhone (since there's no other option).
 
