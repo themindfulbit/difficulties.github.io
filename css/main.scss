@@ -555,6 +555,9 @@ hr:after {
 
 // Core Styling
 
+
+@include baseline-grid(18);
+
 body {
 	@include grid();
   padding: 0 1em;
@@ -712,6 +715,11 @@ body {
         @include column(12,12);
         padding: 0;
         margin-bottom: 1em;
+
+        .no-split {
+          @include column(12,12);
+          padding: 0;
+        }
 
         p:first-child {
           font-size: 1.2em;
@@ -904,7 +912,7 @@ body {
             line-height: 1.1em;
 
             p {
-              font-size: 0.9em;
+              font-size: 0.8em;
               margin: 0;
               line-height: 1.3em;
               display: inline;
@@ -1446,6 +1454,8 @@ body {
 /* @media screen and (min-width: 480px) */
 @media screen and (min-width: 30em) {
 
+  @include baseline-grid(20);
+
   body #header,
   body #footer {
 
@@ -1580,6 +1590,7 @@ body {
             @include push(-2,8);
             padding: 0 1em 0 0;
             border: none;
+            clear: left;
 
             &.small {
               @include column(2,8);
@@ -1603,6 +1614,41 @@ body {
             &.small {
               @include column(2,8);
               @include pull(-2,8);
+              padding: 0 0 0 1em;
+              float: right;
+
+              &.inset {
+                @include pull(0);
+                padding: 0 0 0 1em;
+              }
+            }
+          }
+
+          &.left-pair {
+            @include column(4,8);
+            padding: 0 1em 0 0;
+            border: none;
+            clear: left;
+
+            &.small {
+              @include column(2,8);
+              padding: 0 1em 0 0;
+
+              &.inset {
+                @include push(0);
+                padding: 0 1em 0 0;
+              }
+            }
+          }
+
+          &.right-pair {
+            @include column(4,8);
+            padding: 0 0 0 1em;
+            float: right;
+            border: none;
+
+            &.small {
+              @include column(2,8);
               padding: 0 0 0 1em;
               float: right;
 
@@ -1650,7 +1696,7 @@ body {
 /* @media screen and (min-width: 1024px) */
 @media screen and (min-width: 64em) {
 
-  @include baseline-grid(20);
+  @include baseline-grid(22);
 
   body #wrapper {
     width: 960px;
