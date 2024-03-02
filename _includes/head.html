@@ -35,7 +35,7 @@
   <link rel="icon" sizes="128x128" href="{{ site.url }}/assets/theme/images/icon.png" />
 
   <!-- Open Graph Metadata -->
-  <meta property="og:title" content="{% if page.title %}{{ site.title | escape }} - {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.banner }}" />  
