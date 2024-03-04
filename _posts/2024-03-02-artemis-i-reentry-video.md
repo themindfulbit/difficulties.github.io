@@ -1,6 +1,6 @@
 ---
 layout: post
-date: '2024-03-02 10:30:00 -0700'
+date: '2024-03-02 10:30:00 -0800'
 title: 'Artemis I Reentry Video'
 author: [Erik Hess]
 categories: [link]

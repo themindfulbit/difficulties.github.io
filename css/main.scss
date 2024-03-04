@@ -868,11 +868,18 @@ body {
               font-family: Garamond, serif;
               font-size: 1.3em;
               color: $black;
-              padding-bottom: 0.3em;
+              padding-bottom: 0.1em;
 
               a {
                 color: $dark-gray;
               }
+            }
+
+            .author {
+              font-size: 0.9em;
+              padding-left: 0.3em;
+              padding-bottom: 0;
+              font-variant: small-caps;
             }
 
             .description {
@@ -1040,7 +1047,7 @@ body {
 
       .post-content {
          @include column(12,12);
-         padding: 1em;
+         padding: 1.4em 1.8em;
          line-height: 1em;
          letter-spacing: 0;
          font-size: 1.2em;
