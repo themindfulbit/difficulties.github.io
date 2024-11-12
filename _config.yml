@@ -18,6 +18,7 @@ permalink: /blog/:title
 plugins: [jekyll-paginate, jekyll-gist, rouge, jekyll-redirect-from, jekyll-sitemap]
 include: ["_pages"]
 timezone: America/Los_Angeles
+theme: difficulties
 
 # Build settings
 markdown: kramdown
