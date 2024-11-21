@@ -3,8 +3,8 @@ layout: post
 date: '2024-11-21 06:00:00 -0800'
 title: "They're Not Made for You"
 author: [Erik Hess]
-categories: [link]
-tags: [potatowire, writing]
+categories: [link, technology]
+tags: [security]
 banner: us-doj-truck.jpg 
 caption: "Secret Service member Olive H. Doyle, ca 1920. [U.S. National Archives](https://flic.kr/p/6WV5eV)"
 link: https://www.schneier.com/blog/archives/2024/11/secret-service-tracking-peoples-locations-without-warrant.html
